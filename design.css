@@ -255,6 +255,7 @@ blockquote {
     object-fit: cover;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
+    cursor: zoom-in;
 }
 
 .banner-img:hover {
@@ -266,6 +267,7 @@ blockquote {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     border: 1px solid #333;
+    cursor: zoom-in;
 }
 
 .float-right {
@@ -274,6 +276,7 @@ blockquote {
     width: 300px;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
+    cursor: zoom-in;
 }
 
 .float-right:hover {
@@ -287,6 +290,7 @@ blockquote {
     width: 300px;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
+    cursor: zoom-in;
 }
 
 .float-left:hover {
@@ -364,3 +368,4 @@ footer {
         text-align: center;
     }
 }
+
