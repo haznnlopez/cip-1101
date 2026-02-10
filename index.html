@@ -25,6 +25,10 @@
                 min-height: calc(100vh - 100px);
             }
 
+            p {
+                text-align: center;
+            }
+
             .hero-text {
                 flex: 1;
                 padding-right: 50px;
@@ -111,7 +115,7 @@
             }
 
             .logo:hover img {
-                transform: scale(1.2);
+                transform: scale(1.2) rotate(-2deg);
             }
 
             .about-section {
@@ -185,6 +189,7 @@
                 margin-bottom: 15px;
                 color: var(--text-white);
                 font-family: var(--font-heading);
+                line-height: 1;
             }
 
             .info-card p {
@@ -192,6 +197,7 @@
                 color: var(--text-grey);
                 margin-bottom: 15px;
                 line-height: 1.5;
+                text-align: justify;
             }
 
             .skill-tags {
@@ -343,10 +349,6 @@
 
             footer {
                 background-color: var(--bg-dark);
-            }
-
-            p {
-                text-align: center;
             }
         </style>
     </head>
@@ -520,5 +522,6 @@
     </body>
 
 </html>
+
 
 
